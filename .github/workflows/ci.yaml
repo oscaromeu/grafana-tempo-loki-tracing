@@ -35,3 +35,8 @@ jobs:
         run: |
           docker compose build
 
+
+      - name: List Images
+        run: |
+          docker image ls
+
